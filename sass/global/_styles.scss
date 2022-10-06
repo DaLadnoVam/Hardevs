@@ -1,0 +1,14 @@
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section{
+	@include box;
+}
+.layout {
+	@include box;
+	max-width:1726px;
+	margin:0 auto;
+	padding: 0 20px;
+}
